@@ -348,8 +348,105 @@ aside .content-wrapper {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+  /* Tablet */
+  .content-wrapper {
+    margin: 100px 0;
+    max-width: 640px;
+  }
+  /***** BASE STYLES *****/
+  header {
+    justify-content: space-around;
+    padding: 33px 0;
+  }
+  header .content-wrapper {
+    justify-content: space-between;
+    width: 100%;
+  }
+  header nav {
+    width: 20%;
+  }
+  header nav ul {
+    justify-content: space-between;
+  }
+  header-divider {
+    display: none;
+  }
+  footer .content-wrapper {
+    margin: 100px 0;
+    width: 65%;
+  }
+  .footer-content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .contact {
+    margin-bottom: 0;
+  }
+  footer .copyright {
+    width: 100%;
+  }
+  /***** HOMEPAGE *****/
+  aside .content-wrapper {
+    display: flex;
+    flex-flow: row-wrap;
+    justify-content: space-between;
+    margin: 50px 0;
+  }
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    margin: 0;
+    width: 40%;
+  }
+  .features article {
+    align-items: center;
+    display: flex;
+    flex-basis: 50%;
+    flex-flow: column-wrap;
+    justify-content: space-between;
+  }
+  .features .features-item-description {
+    width: 50%;
+  }
+  .reviews article {
+    display: flex;
+    justify-content: space-between;
+  }
+  .reviews article div {
+    width: 49%;
+  }
+  /***** ABOUT *****/
+  .mission-content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  .mission-content p {
+    width: 45%;
+  }
+  .contact-section .content-wrapper h2 {
+    width: 80%;
+  }
+  .contact-content {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+  }
+  /***** FAQ *****/
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
+  .faq-content {
+    flex-basis: 45%;
+  }
+  .faq h2 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /* Desktop */
 }
 
 @media print,
