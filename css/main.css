@@ -580,6 +580,9 @@ input[type=button] {
   .mission-content p {
     width: 45%;
   }
+  .map figure {
+    padding-bottom: 45.5%;
+  }
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -657,6 +660,9 @@ input[type=button] {
     padding-bottom: 50px;
   }
   /***** ABOUT *****/
+  .map figure {
+    padding-bottom: 37.5%;
+  }
   .mission h2,
   .contact-section .content-wrapper h2 {
     font-size: 3em;
