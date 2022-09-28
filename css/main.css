@@ -447,6 +447,38 @@ aside .content-wrapper {
 }
 @media only screen and (min-width: 1200px) {
   /* Desktop */
+  .content-wrapper {
+    max-width: 960px;
+  }
+  /***** HOMEPAGE *****/
+  .hero-area h1 {
+    width: 60%;
+  }
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%;
+  }
+  .features h2 {
+    width: 90%;
+  }
+  .features article {
+    flex-basis: 33%;
+  }
+  .reviews article div {
+    width: 42%;
+  }
+  /***** ABOUT *****/
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+    width: 95%;
+  }
+  /***** FAQ *****/
+  .faq h2 {
+    width: 100%;
+  }
 }
 
 @media print,
