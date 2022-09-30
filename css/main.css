@@ -303,6 +303,10 @@ input[type=button] {
   flex-flow: row wrap;
   justify-content: center;
 }
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
 .features p {
   margin: 0;
 }
